@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Textarea } from "@/components/ui";
+import { Button, Textarea } from "react";
 
 export default function CodeConverter() {
   const [inputCode, setInputCode] = useState("");
